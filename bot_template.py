@@ -1,18 +1,22 @@
 #Python Reddit API Wrapper
 import praw 
+#translate API (not affiliated with Google)
 from googletrans import Translator 
+
+#make a translator object
 translator = Translator()
 
 #bot constructor 
 bot = praw.Reddit(user_agent='Translate_Bot_',
-                  client_id='wZO7LXE4oVw8lw',
-                  client_secret='hCq4S85ZQCfgkjSnF9TcSgfqkFI',
+                  client_id='hidden',
+                  client_secret='hidden',
                   username='translate_bot_',
-                  password='qscwdv')
+                  password='hidden')
 
 #subreddit contructor 
-sub = bot.subreddit('es')
+sub = bot.subreddit('all')
 
+#supported languages
 languages = [
 "afrikaans",
 "albanian",
@@ -124,11 +128,14 @@ sub_comments = sub.stream.comments()
 
 #combs through stream
 for comment in sub_comments:
+    
     text = comment.body
     text = text.split(" ")
+
     if (text[0].upper() == 'TRANSLATE' and 
         text[1].lower() in languages and
         len(text) == 2):
+
             original = comment.parent().body
             explanation = 'This message was produced by a bot! For more information please visit https://github.com/stirlingcarter/TranslateBot'
             transMsg = translator.translate(original, dest= text[1]).text
