@@ -4,6 +4,10 @@ A bot that translates Reddit posts!
 
 To translate a comment, simply reply "translate "language". 
 
+## Example:
+
+[[https://github.com/stirlingcarter/TranslateBot/edit/master/example.jpg|alt=example]]
+
 This bot is up most of the week, but not 24/7. Soon it will reside on a server and answer requests throughout the day. 
 
 The following languages are supported: 
