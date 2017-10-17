@@ -2,7 +2,7 @@
 
 A bot that translates Reddit posts! 
 
-To translate a comment, simply reply "translate "language". 
+To translate a comment, simply reply "translate **language**". 
 
 ## Example:
 
