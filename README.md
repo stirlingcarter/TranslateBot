@@ -6,7 +6,7 @@ To translate a comment, simply reply "translate "language".
 
 ## Example:
 
-![alt text](https://imgur.com/a/OV03p)
+![alt text](https://imgur.com/j7BkIjP)
 
 This bot is up most of the week, but not 24/7. Soon it will reside on a server and answer requests throughout the day. 
 
