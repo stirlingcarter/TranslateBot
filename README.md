@@ -6,7 +6,7 @@ To translate a comment, simply reply "translate "language".
 
 ## Example:
 
-![](https://github.com/stirlingcarter/TranslateBot/master/example.jpg)
+![](https://github.com/stirlingcarter/TranslateBot/blob/master/example.jpg)
 
 This bot is up most of the week, but not 24/7. Soon it will reside on a server and answer requests throughout the day. 
 
